@@ -75,16 +75,17 @@ DELETE(4)
 ```
 
 The needed step is uses a ``droprow`` action, which is not included in the 
-original paper. It is allowed on rows that contain the same information as 
-other rows in the table.
+original paper. We added it and ensured it is only allowed on rows that 
+contain the same information as other rows in the table.
 
 ## Implementation Notes
 
 The method in this paper seemed simple enough to implement, but during 
 development of this code it became clear that unfortunately the paper doesn't 
 contain sufficient details for a complete reproduction. This is understandable 
-considering the nature of a paper (workshop papers aren't necessarily expected 
-to be fully developed ideas).
+considering the nature of the paper, workshop papers aren't necessarily 
+expected to be fully developed ideas, and I have no intention of criticising 
+the authors.
 
 What follows is a collection of implementation notes.
 
